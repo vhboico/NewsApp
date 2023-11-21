@@ -15,13 +15,10 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.tooling.preview.Preview
 import com.loc.newsapp.presentation.onboarding.componentes.Page
 import com.loc.newsapp.R
-import com.loc.newsapp.presentation.onboarding.componentes.pages
 import com.loc.newsapp.presentation.Dimens.MediumPadding1
 import com.loc.newsapp.presentation.Dimens.MediumPadding2
-import com.loc.newsapp.ui.theme.NewsAppTheme
 
 @Composable
 fun OnBoardingPages(
@@ -51,13 +48,5 @@ fun OnBoardingPages(
             style = MaterialTheme.typography.bodyMedium,
             color = colorResource(id = R.color.text_medium)
         )
-    }
-}
-
-@Preview(showBackground = true)
-@Composable
-fun OnBoard(){
-    NewsAppTheme {
-        OnBoardingPages(page = pages[0])
     }
 }
