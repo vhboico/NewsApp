@@ -2,12 +2,11 @@ package com.loc.newsapp.domain.usecases.news
 
 import com.loc.newsapp.domain.model.Article
 import com.loc.newsapp.domain.repository.NewsRepository
-import kotlinx.coroutines.flow.Flow
 
-class SelectArticles(
+class SelectedArticle(
     private val newsRepository: NewsRepository
 ) {
-    operator fun invoke(): Flow<List<Article>> {
-        return newsRepository.selectArticle()
+    suspend operator fun invoke(url: String): Article? {
+        return newsRepository.selectedArticle(url)
     }
 }

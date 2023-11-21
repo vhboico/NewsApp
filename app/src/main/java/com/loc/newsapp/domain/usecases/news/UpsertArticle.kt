@@ -1,13 +1,13 @@
 package com.loc.newsapp.domain.usecases.news
 
-import com.loc.newsapp.data.local.Dao
 import com.loc.newsapp.domain.model.Article
+import com.loc.newsapp.domain.repository.NewsRepository
 
 class UpsertArticle(
-    private val dao: Dao
+    private val newsRepository: NewsRepository
 ) {
 
     suspend operator fun invoke(article: Article){
-        dao.upsert(article)
+        newsRepository.upsertArticle(article)
     }
 }
