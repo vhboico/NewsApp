@@ -1,15 +1,54 @@
 # NewsApp
-An Android app built with Jetpack Compose and the latest android libraries.
-To learn how to build this app from scratch you can watch my playlist on YouTube : https://www.youtube.com/playlist?list=PLzZEuVaFb9Exi-pc8qtHBrrLg8bUn-TP6
+NewsApp is an application that I developed so that you can see updated news from anywhere in the world
 
-# Preview 
-<img width="716" alt="Screenshot 2023-08-23 at 4 11 00 PM" src="https://github.com/mohammednawas8/NewsApp/assets/78867217/0ba957e5-8b70-42d6-ab09-2cf38ba3936e"><br>
-<img width="716" alt="Screenshot 2023-08-23 at 4 11 00 PM" src="https://github.com/mohammednawas8/NewsApp/assets/78867217/6dda119b-1b3f-4637-91a4-314b85eda214"><br>
-<img width="716" alt="Screenshot 2023-08-23 at 4 11 00 PM" src="https://github.com/mohammednawas8/NewsApp/assets/78867217/6e7186fa-9c05-4705-b568-8326cc99c17f"><br>
-<br>
-<img width="716" alt="Screenshot 2023-08-23 at 4 11 00 PM" src="https://github.com/mohammednawas8/NewsApp/assets/78867217/90385dcf-a852-47c2-be23-aa243adb12e8"><br>
-<img width="716" alt="Screenshot 2023-08-23 at 4 11 00 PM" src="https://github.com/mohammednawas8/NewsApp/assets/78867217/63e8be30-6de8-4060-9ce2-0fa5000c95b8"><br>
-<img width="716" alt="Screenshot 2023-08-23 at 4 11 00 PM" src="https://github.com/mohammednawas8/NewsApp/assets/78867217/0382d92a-e965-4bb3-a1f4-d82c0da87f94"><br>
-<br><br>
-# Things i used to build this app
-<img width="716" alt="Screenshot 2023-08-23 at 4 11 00 PM" src="https://github.com/mohammednawas8/NewsApp/assets/78867217/f9e80bb2-f066-4b90-a537-55d4e0bf07ca">
+## :camera_flash: Screenshots
+<!-- You can add more screenshots here if you like -->
+<img src="/result/img_1.png" width="260">&emsp;<img src="/result/img_2.png" width="260">&emsp;<img src="/result/img_3.png" width="260"> <img src="/result/img_4.png" width="260"> <img src="/result/img_5.png" width="260"> <img src="/result/img_6.png" width="260">
+
+## Tecnologias
+* Kotlin
+* Compose
+* Hilt
+* ViewModel
+* Coroutines
+* MVVM
+* NavController
+* Light mode/Dark mode
+* Pagging
+- Components de UI
+    - Button
+    - Scaffold
+    - Column
+    - TopAppBar
+    - TextButton
+    - Card
+    - Icon
+    - Row
+- Toast para display de mensagens
+
+## Author
+Victor Hugo Boico (follow me on [Linkedin](https://www.linkedin.com/in/victor-boico-a13560269/))
+
+## License
+```
+The MIT License (MIT)
+
+Copyright (c) 2021 Victor Hugo Boico
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
